@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shot Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Favicon (ICO is most compatible) -->
+    <link rel="icon" type="image/x-icon" href="basketball_favicon.ico">
+
+    <!-- Modern font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tell Browser we are using dark mode-->
+    <meta name="color-scheme" content="dark light">
+
+    <link rel="stylesheet" href="styles.css">
+</head> 
+<body>
+    <div class="container">
+        <h1>Shot Tracker</h1>
+        <div class="controls">
+            <button id="madeShotBtn">Made Shot</button>
+            <button id="missedShotBtn">Missed Shot</button>
+            <button id="resetBtn">Reset</button>
+        </div>
+    </div>
+        <div class="stats">
+            <p>Total Shots: <span id="totalShots">0</span></p>
+            <p>Made Shots: <span id="madeShots">0</span></p>
+            <p>Missed Shots: <span id="missedShots">0</span></p>
+            <p>Field Goal Percentage: <span id="fgPercentage">0%</span></p>
+        </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
